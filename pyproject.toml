@@ -1,0 +1,24 @@
+[project]
+name = "stata-mcp-sdk"
+version = "0.1.0"
+description = "Make Stata-MCP useful for everyone."
+readme = "README.md"
+license = {text = "Apache-2.0"}
+authors = [
+    { name = "SongTan", email = "sepinetam@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.116.1",
+]
+
+[project.scripts]
+stata-mcp-sdk = "stata_mcp_sdk:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.urls]
+Homepage = "https://www.sdk.statamcp.com"
+Source = "https://github.com/sepinetam/stata-mcp-sdk"
