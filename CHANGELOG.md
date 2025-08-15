@@ -8,3 +8,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ## [0.1.0] - 2025-08-15
+
+### Added
+- **Initial release** of Stata MCP SDK
+- **Core MCP Client**: Full-featured client for Stata Model Context Protocol services
+- **Type Safety**: Comprehensive type annotations and mypy compatibility
+- **Exception Handling**: Custom exception classes for better error management
+- **CLI Tools**: Command-line interface for easy interaction with MCP services
+- **Package Structure**:
+  - `stata_mcp_sdk._client`: Core MCP client functionality
+  - `stata_mcp_sdk.types`: Type definitions and data structures
+  - `stata_mcp_sdk.exceptions`: Custom exception classes
+  - `stata_mcp_sdk.cli`: Command-line interface utilities
+- **Installation Support**: Available via pip install
+- **Documentation**: Comprehensive docstrings and usage examples
+- **Repository Setup**: GitHub repository with automated CI/CD workflows
