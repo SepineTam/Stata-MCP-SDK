@@ -1,7 +1,7 @@
 [project]
 name = "stata-mcp-sdk"
 version = "0.1.0"
-description = "Make Stata-MCP useful for everyone."
+description = "Let everyone make Stata-MCP powerful."
 readme = "README.md"
 license = {text = "Apache-2.0"}
 authors = [
@@ -10,6 +10,7 @@ authors = [
 requires-python = ">=3.11"
 dependencies = [
     "fastapi>=0.116.1",
+    "httpx>=0.28.1",
 ]
 
 [project.scripts]
