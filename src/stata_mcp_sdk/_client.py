@@ -20,8 +20,8 @@ from .types import Headers, QueryParams, Timeout
 class StataMCPClient:
     def __init__(self,
                  api_key: str,
-                 *,
                  base_url: str = "https://api.statamcp.com/v1",
+                 *,
                  timeout: float | Timeout | None = 30.0,
                  max_retries: int = 3,
                  default_headers: Headers | None = None,
